@@ -1,0 +1,54 @@
+# ninja log v5
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/libflutter_linux_gtk.so	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_engine.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_value.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_view.h	9f5f06da76a80873
+0	12309	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	9f5f06da76a80873
+0	12309	0	flutter/_phony_	9f5f06da76a80873
+12310	14222	1710933742874183859	CMakeFiles/jokenpo.dir/flutter/generated_plugin_registrant.cc.o	c9f16831b3e4aa36
+12309	14414	1710933743062185373	CMakeFiles/jokenpo.dir/main.cc.o	291188e58ac39635
+12310	14457	1710933743106185728	CMakeFiles/jokenpo.dir/my_application.cc.o	fb863abaabf8e808
+14457	14738	1710933743390188015	intermediates_do_not_run/jokenpo	40baf1355e887535
+14738	15022	0	CMakeFiles/install.util	d3ac27a1a4819a52
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/libflutter_linux_gtk.so	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_engine.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_value.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/fl_view.h	9f5f06da76a80873
+3	5002	0	/home/aluno/Área de Trabalho/TATI-Jokenpo/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	9f5f06da76a80873
+3	5002	0	flutter/_phony_	9f5f06da76a80873
+5002	5478	1710933777858465305	CMakeFiles/jokenpo.dir/flutter/generated_plugin_registrant.cc.o	c9f16831b3e4aa36
+5002	5525	1710933777902465658	CMakeFiles/jokenpo.dir/my_application.cc.o	fb863abaabf8e808
+5525	5664	1710933778046466816	intermediates_do_not_run/jokenpo	5b716b40da047b3c
+5664	5787	0	CMakeFiles/install.util	d3ac27a1a4819a52

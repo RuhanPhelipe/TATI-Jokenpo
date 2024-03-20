@@ -1,0 +1,16 @@
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/jokenpo
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/padrao.png
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/papel.png
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/pedra.png
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/tesoura.png
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/aluno/Área de Trabalho/TATI-Jokenpo/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
