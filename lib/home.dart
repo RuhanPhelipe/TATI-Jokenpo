@@ -1,8 +1,6 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class MyJokenpoHome extends StatefulWidget {
   const MyJokenpoHome({super.key});
@@ -21,6 +19,7 @@ class _MyJokenpoHomeState extends State<MyJokenpoHome> {
 
   List _placar = [0, 0, 0];
 
+  // This method verify who wins then update the screen state
   void _play(String playerChoice) {
     String compChoice = _options[Random().nextInt(_options.length)];
 
@@ -31,17 +30,13 @@ class _MyJokenpoHomeState extends State<MyJokenpoHome> {
         playerChoice == 'tesoura' && compChoice == 'pedra') {
       m = 'Você Perdeu!!!';
       _placar[1] += 1;
-    } else if (compChoice == 'pedra' && playerChoice == 'papel' ||
-        compChoice == 'papel' && playerChoice == 'tesoura' ||
-        compChoice == 'tesoura' && playerChoice == 'pedra') {
-      m = 'Você Venceu!!!';
-      _placar[0] += 1;
-    } else {
+    } else if (compChoice == playerChoice) {
       m = 'Empate!!!';
       _placar[2] += 1;
+    } else {
+      m = 'Você Venceu!!!';
+      _placar[0] += 1;
     }
-
-    //print(compChoice);
 
     setState(() {
       _message = m;
@@ -50,22 +45,24 @@ class _MyJokenpoHomeState extends State<MyJokenpoHome> {
     });
   }
 
+  // This method create the Widget that will act like 'buttons' to trigger the method _play()
   List<Widget> _setButtons() {
-    List<Widget> list = [];
+    List<Widget> widgetList = [];
 
-    for (var w in _options) {
-      list.add(GestureDetector(
-        onTap: () => _play(w),
+    for (var option in _options) {
+      widgetList.add(GestureDetector(
+        onTap: () => _play(option),
         child: Image.asset(
-          'images/$w.png',
+          'images/$option.png',
           width: 100,
         ),
       ));
     }
 
-    return list;
+    return widgetList;
   }
 
+  // This method resets the state to its initial values
   void _reset() {
     setState(() {
       _message = 'Quem Venceu o Jogo!!!';
@@ -93,16 +90,22 @@ class _MyJokenpoHomeState extends State<MyJokenpoHome> {
               children: [
                 Column(
                   children: [
-                    Text('PLAYER',
+                    Text('JOGADOR',
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.bold)),
                     Image.asset(_imgPlayerChoice)
                   ],
                 ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 20),
+                  child: Text('VS',
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                ),
                 Column(
                   children: [
                     Text(
-                      'COMP',
+                      'COMPUTADOR',
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
@@ -111,21 +114,61 @@ class _MyJokenpoHomeState extends State<MyJokenpoHome> {
                 ),
               ],
             ),
+            SizedBox(height: 32),
             Text(
               _message,
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
-            Text('Placar: $_placar'),
+            SizedBox(height: 32),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: _setButtons(),
+            ),
+            SizedBox(height: 18),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                counterWrapCircle('Vitórias', _placar[0].toString()),
+                counterWrapCircle('Derrotas', _placar[1].toString()),
+                counterWrapCircle('Empates', _placar[2].toString())
+              ],
             )
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton.small(
+      floatingActionButton: FloatingActionButton(
         onPressed: () => _reset(),
         child: Icon(Icons.refresh),
+      ),
+    );
+  }
+
+  Widget counterWrapCircle(String textTop, String textBottom) {
+    return SizedBox(
+      height: 90,
+      width: 90,
+      child: ClipOval(
+        child: Material(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                textTop,
+                style:
+                    const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 5),
+              Text(
+                textBottom,
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              )
+            ],
+          ),
+          color: Colors.amberAccent,
+        ),
       ),
     );
   }
